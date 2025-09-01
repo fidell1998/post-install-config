@@ -14,7 +14,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b>
+- **Windows 10** used for installing and configuring osTicket
+
+A Windows 10 virtual machine was created using **Microsoft Azure**, with **macOS** as the host system.
 
 <h2>Post-Install Configuration Objectives</h2>
 
