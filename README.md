@@ -191,3 +191,14 @@ Click **“Add New Help Topic”** to start creating your own.
 You can type in any scenario that might occur in your business. For example, I’ve added a few potential situations relevant to our company.
 
 <img width="1041" height="695" alt="20" src="https://github.com/user-attachments/assets/a5f302c8-c8e1-44c1-90fd-287e2267aaf5" />
+
+<br>
+
+### Final step — **very important!** 🛑
+
+Let's make sure to add our agents to a department. We'll assign **Spider-Man** and **Wonder Woman** to the **Support Team**.
+
+For the sake of this tutorial, we'll give **Spider-Man** full access.
+
+<img width="1007" height="627" alt="x" src="https://github.com/user-attachments/assets/14b56283-6bbf-4613-a4f2-da36ec25c5a1" />
+
