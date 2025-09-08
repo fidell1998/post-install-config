@@ -34,13 +34,13 @@ A Windows 10 virtual machine was created using **Microsoft Azure**, with **macOS
 
 After logging into your **osTicket** installation as an administrator, you’ll notice two main interfaces: the **Agent Panel** and the **Admin Panel**.
 
-If you're currently in the **Agent Panel**, you’ll see a button labeled **"Admin Panel"** in the top-right corner. This confirms your current view is the Agent Panel — the area where support tickets are created, viewed, and managed.
+If you're currently in the **Agent Panel**, you’ll see a button labeled **"Admin Panel"** in the top-right corner. This confirms your current view is the Agent Panel, the area where support tickets are created, viewed, and managed.
 
 Click on **"Admin Panel"** to switch to the administrative interface. This is where we’ll perform backend configurations for our **Company**.
   
 <img width="1916" height="1007" alt="1" src="https://github.com/user-attachments/assets/d1bec9d6-759c-47a9-8cab-c57e007d06af" />
 
-Now we're in the **Admin Panel**. You can confirm this by checking the top-right corner — it will display a button labeled **"Agent Panel"**, indicating that you're currently in the admin interface.
+Now we're in the **Admin Panel**. You can confirm this by checking the top-right corner, it will display a button labeled **"Agent Panel"**, indicating that you're currently in the admin interface.
 
 Next, click on the **"Agent Panel"** button to switch back to the agent interface. Once you're there, navigate to the **"Agents"** tab in the top navigation bar, and then select **"Roles"** from the dropdown menu.
 
@@ -52,7 +52,7 @@ This is where we’ll manage user roles and permissions for agents within our **
 
 <h3>Configure Roles</h3>
 
-In osTicket, a **Role** defines what an agent can and cannot access within the system. Each role comes with a specific set of permissions that control what actions agents are allowed to perform — such as viewing tickets, editing them, managing users, and accessing admin settings.
+In osTicket, a **Role** defines what an agent can and cannot access within the system. Each role comes with a specific set of permissions that control what actions agents are allowed to perform, such as viewing tickets, editing them, managing users, and accessing admin settings.
 
 For example, a support agent might only have access to view and reply to tickets, while a manager might have broader permissions to assign tickets and view reports.
 
@@ -138,3 +138,56 @@ For this guide, we created two agents: **Spider-Man** and **Wonder Woman**. Both
 
 <h3>Configure Users</h3>
 
+Now that we've set up our agents, let's create some **users**, the people who will be using our support service.
+
+To begin, navigate to the **Users** tab in the top menu, then click **“Add New User”**.
+
+Users are the customers or clients who submit support tickets through your osTicket system. Each user profile stores contact details, ticket history, and any notes or custom fields you've enabled.
+
+Creating users manually is helpful if you want to:
+
+- Pre-register clients into the system.
+- Associate tickets with known users.
+- Manage user-specific settings or notes.
+
+Once created, users can start submitting tickets and communicating with agents through the help desk.
+
+<img width="1084" height="887" alt="15" src="https://github.com/user-attachments/assets/33bfec8c-4663-4460-89f5-1a06b79f73e5" />
+
+<br>
+
+<h3>Configure SLA</h3>
+
+Now let's set up our **SLA (Service Level Agreement) Plans**. These define how quickly tickets should be responded to and resolved.
+
+Go to the **SLA** tab in the **Admin Panel**.
+
+<img width="1076" height="508" alt="16" src="https://github.com/user-attachments/assets/765e1494-2bf0-4765-84d2-c612c354e052" />
+
+For this setup, we'll organize our SLAs using **SEV A to SEV C**:
+
+- **SEV A** – Highest priority  
+- **SEV B** – Medium priority  
+- **SEV C** – Lowest priority
+
+Click **“Add New SLA Plan”** to create each severity level and assign response times that fit your company’s needs.
+
+<img width="1064" height="760" alt="17" src="https://github.com/user-attachments/assets/fa8a5ae2-4e6d-4081-8079-c92f84d4451c" />
+
+<img width="983" height="111" alt="18" src="https://github.com/user-attachments/assets/f9ca3f1d-ca55-45f5-9e88-fc15ea389553" />
+
+<br>
+
+<h3>Configure Help Topics</h3>
+
+Next, let’s configure **Help Topics**, which help categorize incoming tickets based on common scenarios or issues.
+
+To get started, go to the **Manage** tab in the **Admin Panel**, then click on **Help Topics**.
+
+Click **“Add New Help Topic”** to start creating your own.
+
+<img width="1109" height="690" alt="19" src="https://github.com/user-attachments/assets/c457d57d-1bc8-4c7d-bc6c-5504f2bb6060" />
+
+You can type in any scenario that might occur in your business. For example, I’ve added a few potential situations relevant to our company.
+
+<img width="1041" height="695" alt="20" src="https://github.com/user-attachments/assets/a5f302c8-c8e1-44c1-90fd-287e2267aaf5" />
